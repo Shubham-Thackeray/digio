@@ -1,0 +1,53 @@
+// .justify-content-center {
+//     display: flex !important;
+//     justify-content: center !important;
+//   }
+//   .table td {
+//     vertical-align: middle;
+//   }
+.paper-container{
+  // height: calc(100vh - 100px);
+  border: 1px solid black;
+  width: fit-content;
+  margin: 10px auto;
+  max-width: 100%;
+
+}
+
+.status-header{
+  background: #fff;
+  padding: 10px;
+  // position: absolute;
+  
+}
+
+.paper-container img{
+height: 100%;
+margin: auto;
+max-width: 100%;
+}
+
+.footer-container{
+  height: 100px;
+  max-width: calc(100vh - 250px);
+  text-align: center;
+  margin: 10px auto;
+}
+.full-width, .btn-full{
+  width: 100%;
+}
+
+.adhar-img{
+  padding: 0;
+}
+.adhar-img img{
+  width: 100%;
+  // height: 100%;
+  max-width: 150px;
+  // max-height: 150px;
+}
+
+.show-toast{
+  background: white;
+  height: 120px;
+}
